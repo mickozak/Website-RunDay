@@ -2,9 +2,253 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Run Day App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="Description" content="The Run Day app was created for every running enthusiast. Registered user can create and manage running events.">
+    <meta name="Keywords" content="run, sport, jogging, app, run, day, lublin">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link href="css/materialize.css" type="text/css" rel="stylesheet"/>
+    <link href="css/animate.min.css" type="text/css" rel="stylesheet"/>
+    <link href="css/main.css" type="text/css" rel="stylesheet"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
 
+<!--START WRAPPER-->
+<div class="runday-wrapper section scrollspy" id="home">
+
+<!--START HEADER-->
+    <header>
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="index.html" class="runday-logo brand-logo">RunDay</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#functions">Functions</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <ul id="nav-mobile" class="sidenav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#functions">Functions</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger blue-text"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </header>
+<!--END HEADER-->
+
+<!--START MAIN-->
+    <main>
+
+<!--START PARALLAX #1-->
+          <div id="index-banner" class="parallax-container">
+              <div class="section no-pad-bot runday-parallax">
+                  <div class="container">
+                      <div class="row center">
+                          <h5 class="header col s12 light animated fadeInLeft delay-10s">Run with us, whenever you want.</h5>
+                      </div>
+                      <div class="row center">
+                          <a href="#functions" id="download-button" class="btn-large waves-effect waves-light blue">More Info</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="parallax"><img src="img/parallax/running4.jpeg" alt="Run Boy"></div>
+          </div>
+<!--END PARALLAX #1-->
+
+<!--START FUNCTIONS-->
+          <div class="container section scrollspy" id="functions">
+              <div class="section">
+                  <div class="row">
+                      <div class="col s12 m4">
+                          <div class="icon-block">
+                              <h2 class="center blue-text animated zoomIn"><i class="material-icons">gps_not_fixed</i></h2>
+                              <h5 class="center">Localization</h5>
+                              <p class="light">The RunDay application, thanks to the use of the latest technologies, has the greatest accuracy in showing the current location of the runner. In addition, it is distinguished by a transparent and refined interface. The program uses very little energy, and the dark background is perfect for dark gears. GPS turns on automatically when training begins. In addition, the user can choose the type of plain or satellite map.</p>
+                          </div>
+                      </div>
+                      <div class="col s12 m4">
+                          <div class="icon-block">
+                              <h2 class="center blue-text animated zoomIn"><i class="material-icons">directions_run</i></h2>
+                              <h5 class="center">Lists of challenges</h5>
+                              <p class="light">The application has the ability to create a list of challenges. Through it, the user can manage their goals. The program sends a notification when the goal is reached. To see detailed results, there is no need to log into the portal page, because maps, charts and other training parameters are available in the mobile version.</p>
+                          </div>
+                      </div>
+                      <div class="col s12 m4">
+                          <div class="icon-block">
+                              <h2 class="center blue-text animated zoomIn"><i class="material-icons">calendar_today</i></h2>
+                              <h5 class="center">Calendar</h5>
+                              <p class="light">The user gains access to the multifunctional calendar. Managing calendars is very simple, it allows you to create many events that are independent of each other. Thanks to the integration with social networking sites, it allows you to track your friends' progress in training or share their route or the duration of the training live. In addition, the user can share his photos and general impressions from the completed run.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+<!--END FUNCTIONS-->
+
+<!--START PARALLAX #2-->
+          <div class="parallax-container valign-wrapper">
+              <div class="section no-pad-bot">
+                  <div class="container">
+                      <div class="row center">
+                          <h5 class="header col s12 light animated fadeInLeft">Meet new friends and spend time together.</h5>
+                      </div>
+                  </div>
+              </div>
+              <div class="parallax"><img src="img/parallax/background5.jpg" alt="Run Boy"></div>
+          </div>
+<!--END PARALLAX #2-->
+
+<!--START TEAM-->
+          <div class="container section scrollspy" id="team">
+              <div class="section">
+                  <div class="row">
+                      <div class="col s12 center">
+                          <h4>Our Team</h4>
+                          <div class="left-align light center">
+                          <p class="light">The Run Day team is a group of people who take challenges and adventures. Each of us has a specific task, we are completely different, but one thing connects us - a common passion for running. Each user has a chance to become part of our team.</p>
+                          <div class="row">
+                              <div class="runday-person col s12 m4">
+                                  <img src="img/team/9.jpg">
+                                  <h5>Michał Kozak</h5>
+                                  <p>Junior Frontend Developer</p>
+                                  <span><img src="img/socialmedia/facebook-brands.svg"/><img src="img/socialmedia/linkedin-brands.svg"/><img src="img/socialmedia/github-square-brands.svg"/></span>
+                              </div>
+                              <div class="runday-person col s12 m4 ">
+                                  <img src="img/team/11.jpg">
+                                  <h5>Paweł Wasil</h5>
+                                  <p>Junior Frontend Developer</p>
+                                  <span><img src="img/socialmedia/facebook-brands.svg"/><img src="img/socialmedia/linkedin-brands.svg"/><img src="img/socialmedia/github-square-brands.svg"/></span>
+                              </div>
+                              <div class="runday-person col s12 m4">
+                                  <img src="img/team/10.jpg">
+                                  <h5>Natalia Struk</h5>
+                                  <p>Junior Frontend Developer</p>
+                                  <span><img src="img/socialmedia/facebook-brands.svg"/><img src="img/socialmedia/linkedin-brands.svg"/><img src="img/socialmedia/github-square-brands.svg"/></span>
+                              </div>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+<!--END TEAM-->
+
+<!--START PARALLAX #3-->
+          <div class="parallax-container valign-wrapper">
+              <div class="section no-pad-bot">
+                  <div class="container">
+                      <div class="row center">
+                          <h5 class="header col s12 light animated fadeInLeft">A modern application with which you can do everything.</h5>
+                      </div>
+                  </div>
+              </div>
+              <div class="parallax"><img src="img/parallax/background6.jpg" alt="Run Boy"></div>
+          </div>
+<!--END PARALLAX #3-->
+
+<!--START CONTACT-->
+          <div class="container section scrollspy" id="contact">
+              <div class="section">
+                  <div class="row">
+                      <div class="col s12 m6">
+                          <div class="row">
+                              <h4>Contact</h4>
+                              <form class="col s12">
+                                  <div class="row">
+                                      <div class="input-field col s6">
+                                          <input id="last_name" type="text" class="validate">
+                                          <label for="last_name">First Name</label>
+                                      </div>
+                                      <div class="input-field col s6">
+                                          <input id="last_name" type="text" class="validate">
+                                          <label for="last_name">Last Name</label>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="input-field col s12">
+                                          <input id="email" type="email" class="validate">
+                                          <label for="email">Email</label>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="input-field col s12">
+                                          <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                          <label for="textarea1">Textarea</label>
+                                      </div>
+                                  </div>
+                                  <button class="btn waves-effect blue" type="submit" name="action">Submit
+                                      <i class="material-icons right">send</i>
+                                  </button>
+                              </form>
+                          </div>
+                      </div>
+                      <div class="col s12 m6">
+                          <div class="icon-block">
+                              <h2 class="center blue-text animated zoomIn"><i class="material-icons">contacts</i></h2>
+                          </div>
+                          <div class="center">
+                              <p class="light center">
+                              <h5>Run Day Application Ltd.</h5>
+                              <p>Address: Ul. Krakowskie Przedmieście 120</p>
+                              <p>City: 20-450 Lublin</p>
+                              <p>Phone: +48 739 066 120</p>
+                              <p>E-mail: contact@rundayapp.pl</p>
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+<!--END CONTACT-->
+
+    </main>
+<!--END MAIN-->
+
+<!--START FOOTER-->
+    <footer class="page-footer blue">
+          <div class="container">
+              <div class="row">
+                  <div class="col l6 s12">
+                      <h5 class="white-text">About Us</h5>
+                      <p class="grey-text text-lighten-4">The Run Day app was created for every running enthusiast. Registered user can create and manage running events.</p>
+                  </div>
+                  <div class="col l3 s12">
+                      <h5 class="white-text">SocialMedia</h5>
+                      <ul>
+                          <li><a class="white-text" href="#!"><i class="fab fa-facebook-square"></i> Faccebook</a></li>
+                          <li><a class="white-text" href="#!"><i class="fab fa-instagram"></i> Instagram</a></li>
+                      </ul>
+                  </div>
+                  <div class="col l3 s12">
+                      <h5 class="white-text">Nav links</h5>
+                      <ul>
+                          <li><a class="white-text" href="#home">Home</a></li>
+                          <li><a class="white-text" href="#functions">Function</a></li>
+                          <li><a class="white-text" href="#team">Team</a></li>
+                          <li><a class="white-text" href="#contact">Contact</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © Copyright Run Day. Powered by Michał Kozak.
+            </div>
+        </div>
+    </footer>
+<!--END FOOTER-->
+
+</div>
+<!--END WRAPPER-->
+
+<script src="script/jquery.min.js"></script>
+<script src="script/materialize.js"></script>
+<script src="script/script.js"></script>
 </body>
 </html>
